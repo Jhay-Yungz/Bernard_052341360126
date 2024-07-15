@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brainyungz Parazice</title>
+    <style>
+      body {
+        background-image: url("images/shpping-malls-ghana.jpg");
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+
+      /* Navigation */
+      nav {
+        background-color: #333;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav ul li {
+        display: inline;
+        margin: 0 1rem;
+      }
+
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      nav ul li a:hover {
+        text-decoration: underline;
+      }
+
+      /* Hero Section */
+      .hero {
+        background: url("hero-bg.jpg") no-repeat center center/cover;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(31, 80, 242);
+        text-align: center;
+      }
+
+      .hero-content h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+
+      .hero-content p {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+      }
+
+      .hero-content .btn {
+        padding: 1rem 2rem;
+        background-color: #ff6347;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+      }
+
+      .hero-content .btn:hover {
+        background-color: #ff4500;
+      }
+
+      /* About Section */
+      .about {
+        text-align: center;
+        padding: 2rem 1rem;
+        background-color: white;
+      }
+
+      .about .container {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      /* Services Section */
+      .services {
+        background-color: #f4f4f4;
+        padding: 2rem 1rem;
+        text-align: center;
+      }
+
+      .services .container {
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+
+      .service-cards {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+
+      .service-card {
+        background-color: white;
+        padding: 1rem;
+        margin: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        flex: 1;
+        min-width: 200px;
+      }
+      .service-card:hover {
+        background-color: goldenrod;
+        opacity: 0.7;
+      }
+
+      .service-card h3 {
+        margin-bottom: 1rem;
+      }
+      .service-card h3 a:hover {
+        text-decoration: underline;
+      }
+
+      /* Testimonials Section */
+      .testimonials {
+        background-color: rgb(223, 234, 238);
+        padding: 2rem 1rem;
+        text-align: center;
+      }
+
+      .testimonials .container {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      .testimonial-carousel {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+      }
+
+      .testimonial-item {
+        min-width: 300px;
+        margin: 0 1rem;
+        scroll-snap-align: center;
+        background-color: #ccd0da;
+        padding: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+      }
+
+      .testimonial-item:hover {
+        background-color: aqua;
+        opacity: 0.7;
+      }
+      /* Contact Section */
+      .contact {
+        background-color: aqua;
+        padding: 2rem 1rem;
+        text-align: center;
+      }
+
+      .contact .container {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      .contact form {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .contact label {
+        margin: 0.5rem 0 0.2rem;
+        font-weight: bold;
+      }
+
+      .contact input,
+      .contact textarea {
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+
+      .contact textarea {
+        height: 100px;
+      }
+
+      .contact .btn {
+        padding: 1rem;
+        background-color: #333;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      .contact .btn:hover {
+        background-color: #555;
+      }
+
+      /* Footer */
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li><a href="others/jhayservice.html">Collection</a></li>
+        <li><a href="others/AboutJhay.html">About Us</a></li>
+        <li><a href="tel:+23322479222975" call>Call Us</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+      <div class="hero-content">
+        <h1>Welcome to Brainyungz Parazice</h1>
+        <p>Discover the latest fashion trends and styles.</p>
+        <a href="others/Collection.html" class="btn">Shop Now</a>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>
+          Brainyungz Parazice is your ultimate destination for unique and
+          high-quality fashion. Our mission is to bring you the best collections
+          from around the world, ensuring you always look your best.
+        </p>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+          <div class="service-card">
+            <h3><a href="others/Collection.html"> Exclusive Collections</a></h3>
+            <p>Explore our exclusive collections curated by fashion experts.</p>
+          </div>
+          <div class="service-card">
+            <h3><a href="https://www.glovo.com">Free Delivery service</a></h3>
+            <p>Enjoy free shipping on all orders above GHC 290.</p>
+          </div>
+          <div class="service-card">
+            <h3>24/7 Support</h3>
+            <p>We are here to help you round the clock with any inquiries.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <div class="container">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial-carousel">
+          <div class="testimonial-item">
+            <p>
+              "Brainyungz Parazice has the best collection I've ever seen.
+              Highly recommended!"
+            </p>
+            <span>- Ekas3n</span>
+          </div>
+          <div class="testimonial-item">
+            <p>
+              "Great quality and amazing customer service. I'll definitely shop
+              here again."
+            </p>
+            <span>- Lil baby</span>
+          </div>
+          <div class="testimonial-item">
+            <p>
+              "Their team was professional,responsible, and truly cared about
+              our vision.we couldn't be happier with the results."
+            </p>
+            <span>- Drivebaby</span>
+          </div>
+          <div class="testimonial-item">
+            <p>
+              "Highly recommend Brainyungz Parazice Homes exceeded our
+              expectations in every way. Our new home is stunning, and the
+              precess was smooth and enjoyable."
+            </p>
+            <span>- Nimo</span>
+          </div>
+          <div class="testimonial-item">
+            <p>
+              "Unique and stylish collections that I can't find anywhere else."
+            </p>
+            <span>- Alayeh Kally</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Brainyungz Parazice. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js">
+      // Add any JavaScript if needed for additional functionality
+    </script>
+  </body>
+</html>
